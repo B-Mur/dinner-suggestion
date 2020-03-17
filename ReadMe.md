@@ -3,7 +3,7 @@
 > This project utilizes several forms of aggregation in order to suggest places for a group of people to dine.
 
 This figure is an illustrates an overview of the process to accomplishes this task.
-[![Overview](images/Screen Shot 2020-03-16 at 7.29.42 PM.png)]()
+[![Overview](https://github.com/B-Mur/dinner-suggestion/blob/master/images/Screen%20Shot%202020-03-16%20at%207.28.32%20PM.png)]()
 
 ## Requirements
 To install the requirements for this project, please run the following conda commands.
@@ -46,5 +46,5 @@ feature aggregation can be used.
 Here is an example output of the default parameters
 This figure is an illustrates an overview of the process to accomplishes this task.
 
-[![Image description](images/Screen Shot 2020-03-16 at 7.28.32 PM.png)]
+[![Overview](https://github.com/B-Mur/dinner-suggestion/blob/master/images/Screen%20Shot%202020-03-16%20at%207.28.32%20PM.png)]()
 
