@@ -45,5 +45,6 @@ feature aggregation can be used.
 ## Example Outputs
 Here is an example output of the default parameters
 This figure is an illustrates an overview of the process to accomplishes this task.
-![Example Output](images/Screen Shot 2020-03-16 at 7.28.32 PM.png)
+
+![Image description](images/Screen Shot 2020-03-16 at 7.28.32 PM.png)
 
