@@ -46,5 +46,5 @@ feature aggregation can be used.
 Here is an example output of the default parameters
 This figure is an illustrates an overview of the process to accomplishes this task.
 
-![Image description](images/Screen Shot 2020-03-16 at 7.28.32 PM.png)
+[![Image description](images/Screen Shot 2020-03-16 at 7.28.32 PM.png)]
 
