@@ -39,9 +39,9 @@ if __name__ == '__main__':
 
 
     # Setup each actor
-    bryce = Actor(name = 'Yellow Smiley', rating='=5', price='=$$',    travel='>.2', cat=['burger'], confidence=1)
-    kate =  Actor(name = 'Gray Smiley',   rating='=3.5',   price='=$',   travel='<.5', cat=['chinese'], confidence=1)
-    matt =  Actor(name = 'Blue Smiley',   rating='>3',   price='=$',    travel='>.6', cat=['italian'], confidence=1)
+    bryce = Actor(name = 'Bryce', rating='=5', price='=$$',    travel='>.2', cat=['burger'], confidence=1)
+    kate =  Actor(name = 'Kate',   rating='=3.5',   price='=$',   travel='<.5', cat=['chinese'], confidence=1)
+    matt =  Actor(name = 'Matt',   rating='>3',   price='=$',    travel='>.6', cat=['italian'], confidence=1)
 
     c = ['rgba(21, 108, 138, .85)', 'rgba(255, 192, 0, .85)', 'rgba(72, 105, 131, .85)']
 
@@ -94,8 +94,8 @@ if __name__ == '__main__':
         best_rest = restaurants.loc[np.argmax(restaurants['total-score'])]
         fig.append_trace(go.Bar(x=restaurants['alias'], y=restaurants[f'total-score'], name='Totals', marker=dict(color='rgba(0, 0, 0, .85)')), row=(j+2), col=1)
 
-        fig.update_xaxes(tickfont=dict(size=24))
-        fig.update_yaxes(tickfont=dict(size=24), range=[0, 1])
+        fig.update_xaxes(tickfont=dict(size=14))
+        fig.update_yaxes(tickfont=dict(size=14), range=[0, 1])
         fig.update_layout(title={'text': f'Winner : {best_rest["name"]} - Match : {best_rest["total-score"]:.2f}'})
         fig.show()
 
